@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Supreme Obstruction</title>
+
+  <!-- import the webpage's stylesheet -->
+  <link rel="stylesheet" href="/style.css" />
+
+  <!-- import the webpage's javascript file -->
+  <script src="/script.js" defer>
+
+  </script>
+</head>
+
+<body>
+  <h1>Supreme Obstruction</h1>
+  <h4 style="color:darkblue">By Raza (Htet) Hlaing</h4>
+  <h2 id="chooseBelow">
+    Choose one of the below:
+  </h2>
+  <button class="chooseO" id="twoPlayerButton">
+    Two Player
+  </button>
+  <button class="chooseO" id="computerButton">
+    Computer
+  </button>
+  <button class="levelsC" id="easyButton">
+    Easy
+  </button>
+  <button class="levelsC" id="mediumButton">
+    Medium
+  </button>
+  <button class="levelsC" id="impossibleButton">
+    Hard
+  </button>
+  <button id="backButton">
+    Go Back
+  </button>
+  <h2 class="levelsC" id="noteBar">Note: Some moves for the computer make take long since the board of obstruction can
+    be big. The first one-two moves the computer does take more than 7 minutes, so the moves are actually randomized.
+  </h2>
+  <h3 id="howPlay">How to Play: Obstruction is a two player game where one player clicks a square to place a letter. You
+    cannot place a letter next to another letter. You win if the other player cannot move.</h3>
+  <div id="board">
+    <div class="row" index="0">
+      <div index="0"></div>
+      <div index="1"></div>
+      <div index="2"></div>
+      <div index="3"></div>
+      <div index="4"></div>
+      <div index="5"></div>
+    </div>
+    <div class="row" index="1">
+      <div index="0"></div>
+      <div index="1"></div>
+      <div index="2"></div>
+      <div index="3"></div>
+      <div index="4"></div>
+      <div index="5"></div>
+    </div>
+    <div class="row" index="2">
+      <div index="0"></div>
+      <div index="1"></div>
+      <div index="2"></div>
+      <div index="3"></div>
+      <div index="4"></div>
+      <div index="5"></div>
+    </div>
+    <div class="row" index="3">
+      <div index="0"></div>
+      <div index="1"></div>
+      <div index="2"></div>
+      <div index="3"></div>
+      <div index="4"></div>
+      <div index="5"></div>
+    </div>
+    <div class="row" index="4">
+      <div index="0"></div>
+      <div index="1"></div>
+      <div index="2"></div>
+      <div index="3"></div>
+      <div index="4"></div>
+      <div index="5"></div>
+    </div>
+    <div class="row" index="5">
+      <div index="0"></div>
+      <div index="1"></div>
+      <div index="2"></div>
+      <div index="3"></div>
+      <div index="4"></div>
+      <div index="5"></div>
+    </div>
+  </div>
+  <div id="resultsDiv">
+    <div>
+      <label>Length: <input class="parInput" type="range" id="lengthInput" min="1" value="6" max="12" />
+        <p id="lengthPar">6</p>
+      </label>
+    </div>
+    <div>
+      <label>Width: <input class="parInput" type="range" id="widthInput" min="1" max="12" value="6" />
+        <p id="widthPar">6</p>
+      </label>
+    </div>
+    <button id="submitButton">Submit New Dimensions</button>
+    <p id="message"></p>
+  </div>
+  <div id="bottomLine">
+    <div>
+      <h3 id="whoX"></h3>
+      <h3 id="whoO"></h3>
+    </div>
+    <button id="restartButton">
+      Restart
+    </button>
+    <button id="computerFirstButton">
+      Let the Computer Go First
+    </button>
+  </div>
+
+</body>
+
+</html>
