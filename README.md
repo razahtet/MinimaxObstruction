@@ -8,4 +8,5 @@
 - The board size can be changed from 1 X 1 to 12 X 12. Press "submit new dimensions" to restart the game and change the size of the board.
 - Press "Restart" to restart the game, and pressing "Let the Computer go first" in one of the computer game modes also restarts the game, but lets the computer go first.
 
+# Live Demo
 Live demo: https://minimax-obstruction.glitch.me/
