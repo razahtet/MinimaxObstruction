@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap");
@@ -104,6 +105,7 @@ input,
 
 #noteBar {
   color: crimson;
+  text-align: center;
 }
 
 #howPlay {
